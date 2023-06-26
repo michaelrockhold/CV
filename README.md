@@ -149,7 +149,7 @@ VERTEK was the developer of OASYS, a tool used by occupational professionals to 
 🇺🇸 **English**: Native <br>
 🇪🇸 **Spanish**: B1 <br>
 🇫🇷 **French**: 	B1 <br>
-🇩🇪 **German**:  A2 <br>
+🇩🇪 **German**:  B1 <br>
 <br>
 
 ## 🧑‍🎓 Education
