@@ -65,14 +65,14 @@ Hestan makes advanced microprocessor-equipped cookware that enables the user to 
   - **_Technologies used:_** C/C++, Objective C, Swift, Java. iOS, Android. Xcode, Android Studio.
 <br><br>
 
-**Software Engineer III** @ [Nordstrom, Inc.](https://nordstrom.com/) _(September 2013 - May 2017) Seattle, WA__ <br>
+**Software Engineer III** @ [Nordstrom, Inc.](https://nordstrom.com/) _(July 2012 - May 2017) Seattle, WA__ <br>
 I played a number of roles there over time.
 As a member of the “Mobile API” team, I coded C# and Go micro-services which we deployed on AWS and on on-premises Windows IIS.
 
 As a senior iOS application developer, I performed application development in an agile, TDD, environment, where paired programming was the norm.
 <br><br>
 
-**Software Development Engineer** @ [Ascentium, Inc.](https://smithcommerce.com/) _(July 2012 - August 2013) Kirkland, WA_ <br>
+**Software Development Engineer** @ [Ascentium, Inc.](https://smithcommerce.com/) _(July 2011 - June 2012) Kirkland, WA_ <br>
 Ascentium (now called 'Smith') is a IT services and consulting company that employed me to develop iOS apps.
   - **_Technologies used:_** Objective C. iOS. Xcode. Webkit and AV Foundation frameworks.
 <br><br>

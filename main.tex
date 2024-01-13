@@ -1,0 +1,327 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 2.0 (12/10/23)
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Omar Roldan
+% Based on a template by  Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}  
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Michael Rockhold}}}} % First name
+	
+	\vspace{6pt}
+	
+	{\Large Developer $\sim$ Engineer} % Career or current job title
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth} % 20% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	\icon{Globe}{11}{\href{https://michaelrockhold.github.io/CV/}{CV}}\\ 
+    \icon{Phone}{11}{(206) 240-6636}\\
+    \icon{MapMarker}{11}{Seattle WA}\\
+	
+\end{minipage}
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\icon{Envelope}{11}{\href{mailto:m@rockhold.co}{m@rockhold.co}}\\	
+    \icon{Github}{11}{\href{https://github.com/michaelrockhold}{michaelrockhold}}\\
+    \icon{LinkedinSquare}{11}{\href{https://www.linkedin.com/in/michaelrockhold/}{michaelrockhold}}\\    
+    
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{1\textwidth}
+    \cvsect{Summary}
+	\vspace{-6pt}
+ 
+I’m a senior software developer with a wide range of experience and interests.
+I have a high degree of skill and experience in native mobile application development as well as in the design and development of backend microservices suitable for supporting those mobile apps.
+I am motivated by opportunities to learn new things and to share those learnings with colleagues and collaborators.
+\end{minipage}
+\hfill % Whitespace between
+
+\begin{minipage}[t]{1\textwidth}
+    \cvsect{Skills}
+    \vspace{-6pt}
+    
+    \begin{minipage}[t]{0.12\textwidth}
+        \textbf{Languages:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.80\textwidth}
+    \texttt{Swift} \slashsep \texttt{C/C++}\slashsep \texttt{Objective-C}\slashsep \texttt{Python}\slashsep \texttt{Java} \slashsep \texttt{Go} \slashsep \texttt{Pascal}
+    \end{minipage}
+    \vspace{4mm}
+
+  \begin{minipage}[t]{0.12\textwidth}
+        \textbf{Tools:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.80\textwidth}
+      \texttt{git} \slashsep \texttt{GitLab CI/CD} \slashsep \texttt{GitHub Pages} \slashsep \texttt{TestFlight} \slashsep \texttt{Xcode} \slashsep \texttt{VSCode}
+    \end{minipage}
+    \vspace{4mm}
+
+    \begin{minipage}[t]{0.12\textwidth}
+        \textbf{Technologies:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.80\textwidth}
+      \texttt{Linux} \slashsep\texttt{macos} \slashsep\texttt{iOS} \slashsep\texttt{UIKit} \slashsep\texttt{AppKit} \slashsep\texttt{MapKit} \slashsep\texttt{SwiftUI} \slashsep\texttt{Core Data} \slashsep\texttt{Core Graphics} \slashsep\texttt{AWS} \slashsep\texttt{Creating REST APIs} \slashsep\texttt{Algorithms} \slashsep\texttt{Raspberry Pi}
+    \end{minipage}
+    \vspace{4mm}
+
+    \begin{minipage}[t]{0.12\textwidth}
+        \textbf{Activities:}
+    \end{minipage}
+    \hfill
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=100pt]
+            \item System Design
+            \item Requirements gathering
+            \item Sprint planning
+            \item Design review, code review
+            \item Planning, creating, and executing automated test cases and UI automation
+            \item Agile Development practices
+            \item Test Driven Development
+            \item Recruitment activities including candidate assessment, interviewing, and interview design
+            \item Brown-bag presentations
+            \item Conference presentations
+            \item Strong Communication and Presentation Skills, written and oral
+    \end{itemize}
+    \vspace{4mm}
+
+\end{minipage}
+\hfill % Whitespace between
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\cvsect{Professional Experience}
+\begin{entrylist}
+	\entry
+        {9/2022 -- 7/2023 \\\footnotesize{10 months}}
+		{Software Engineer}
+		{\href{https://sinclairdigital.com/}{Sinclair Digital}}
+		{
+        Video Service Engineering team
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Designed, developed and deployed middleware to support streaming video services’ customer sign-up and subscription service
+            \item Designed and developed a system that automates the connection of live station news feeds to Facebook Live and other social media streaming services
+            \item Designed, developed, and put into service a cloud-based search engine for KOMO TV’s archive of daily run-down sheets going back decades
+            \item Coded in primarily in Java, JavaScript, and Terraform to build and deploy web APIs using Spring Boot and other frameworks
+            \item Debugged my APIs across service boundaries
+            \item Subject matter expert for APIs in my area of responsibility
+            \item Collaborated with teams across the company, consulting with developers on other teams to share code, establish interfaces, distribute labor
+            \item Wrote clear, concise, and testable code
+            \item Provided valuable unit and integration tests;
+            \item Contributed meaningful feedback in peer code reviews
+            \item Mentored junior developers
+            \item Interviewed developer candidates for recruitment to our team or to others.
+        \end{itemize}}
+
+	\entry
+        {9/2019 -- 9/2022 \\\footnotesize{34 months}}
+		{Software Engineer}
+		{\href{https://sinclairdigital.com/}{Sinclair Digital}}
+		{
+        Innovation Lab (now sadly defunct)
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Proposed projects
+            \item Presented plans, progress, and results on a regular basis to Steering Committee, the C-suite audience that commissions and evaluates our work
+            \item Authored development and test plans
+            \item Wrote clear, concise, and testable code
+            \item Coded in primarily in Go, GraphQL, and Python, some Javascript with React and React Native
+            \item Developed unit and integration tests for new code
+            \item Used cloud tools like ElasticSearch, AWS Lambda, AWS CloudFormation, AWS S3, AWS SNS, etc.
+            \item Wrote Terraform scripts to deploy to AWS via GitHub and GitLab CI/CD systems
+            \item Designed and developed a simple middleware to be a single coherent API for our clients to use exclusively, which coordinates and orchestrates access to a number of different services, both internal and external to Sinclair
+            \item Used AWS Lambda, DynamoDB, CloudFormation, ECS, API Gateway, S3, Simple Notification Service, Route 53 to build micro services
+            \item Developed custom middleware to support web and React Native clients for a prototype of a new Sinclair news property
+        \end{itemize}
+        }
+	\entry
+        {7/2017 -- 4/2019 \\\footnotesize{21 months}}
+		{Sr. Software Engineer}
+		{\href{https://hestancue.com/}{Hestan Smart Cooking, Inc.}}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Designed, coded Meat Tempering feature
+            \item Designed, coded an improved Bluetooth cooking device discovery and pairing system
+            \item Proposed and led a major refactor of much of the iOS app to employ a MVVM pattern that improved the maintainability and extensibility of the code.
+            \item Diagnosed and corrected bugs
+            \item Reviewed code in ObjC, Swift, Java for iOS and Android apps and web services deployed on AWS
+            \item Developed manual and automated test processes
+            \item Interviewed and assessed candidates for recruitment
+        \end{itemize}}
+	\entry
+        {7/2012 -- 5/2017 \\\footnotesize{58 months}}
+		{Software Engineer III}
+		{\href{https://nordstrom.com/}{Nordstrom, Inc.}}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Designed, coded a map-based Store Search feature to help draw customers into the stores
+            \item Helped spearhead the transition of the whole Customer Mobile Application team to Test-Driven Development and Full Pair Programming
+            \item Presented brown-bag talks frequently to share learnings from remote training sessions
+            \item Developed prototype apps to explore potential product ideas
+            \item Diagnosed and corrected bugs
+            \item Reviewed code in Objective-C, Swift, and Java for iOS and Android apps, and web services deployed on AWS
+            \item Developed manual and automated test processes
+            \item Lead development of a new style of candidate interview using pair programming and TDD.
+            \item Interviewed and assessed candidates for recruitment
+        \end{itemize}}
+	\entry
+        {7/2011 -- 6/2012}
+		{Software Developer}
+		{\href{https://smithcommerce.com/}{Ascentium, Inc.}}
+  		{\vspace{-10pt}}
+	\entry
+        {2/2009 -- 9/2013}
+		{Owner, Developer}
+		{\href{https://rockholdco.com/}{Rockhold Company.}}
+  		{\vspace{-10pt}}
+	\entry
+        {4/1996 -- 1/2009}
+		{Software Design Engineer III}
+		{\href{https://nordstrom.com/}{Microsoft, Inc.}}
+  		{\vspace{-10pt}}
+	\entry
+        {10/1994 -- 4/1996}
+		{Software Developer}
+		{\href{https://attachmate.com/}{Attachmate Corporation}}
+  		{\vspace{-10pt}}
+	\entry
+        {1991 -- 1994}
+		{Lead Quality Assurance Engineer}
+		{\href{https://symantec.com/}{Symantec Corporation}}
+  		{\vspace{-10pt}}
+	\entry
+        {1988 -- 1991}
+		{MUMPS Developer}
+		{\href{https://intersystems.com/}{InterSystems, Inc.}}
+  		{\vspace{-10pt}}
+	\entry
+        {1987 -- 1988}
+		{Developer}
+		{VERTEK, Inc.}
+  		{\vspace{-10pt}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Education}
+\begin{entrylist}
+    \entry
+		{9/2015 - 1/2019}
+		{Master of Science}
+		{University of Washington}
+		{Computer Science and Engineering, 3.3 GPA}
+    \entry
+		{9/1981 - 1/1986}
+		{Bachelor of Arts}
+		{McGill University}
+		{Linguistics, C.S. minor, 2.7 GPA}
+\end{entrylist}
+
+\newpage
+%----------------------------------------------------------------------------------------
+%	Personal Projects
+%----------------------------------------------------------------------------------------
+\cvsect{Personal Projects}
+\begin{entrylist}
+	\entry
+		{Coding}
+		{Georg}
+		{https://github.com/appel-rockhold/georg}
+		{A macOS desktop and iPadOS app for sharing editable map documents}
+	\entry
+		{Coding}
+		{Micropolis Experiment}
+		{https://github.com/michaelrockhold/micropolis}
+		{Hacking on the SimCity 1.0 codebase to test out some ideas for games. One part of this is making a SwiftUI app for macos, and another is making a version of Micropolis for the Playdate console.}
+    \entry
+		{Coding}
+		{HexMap}
+		{https://github.com/michaelrockhold/Hexasphere-sw}
+		{the Game of Life but on a hex-tiled globe instead of a 2D grid of square cells}
+\end{entrylist}
+
+\cvsect{Hobbies}
+\begin{entrylist}
+    \entry
+		{Homemaking}
+		{Cooking, Baking}
+		{}
+		{I enjoy adapting recipes from various tradtions and cuisines to be vegetarian or vegan.}
+    \entry
+		{DIY remodeling}
+		{Attic Sauna}
+		{}
+		{I built a good-sized cedar-lined sauna in some unimproved space in the attic of my house during the pandemic without ruining anything}
+    \entry
+		{Home Automation}
+		{CoffeeSwitch}
+		{}
+		{designed an electronic switch controlled by HomeKit, and installed it in our coffemaker so that we could start the coffee from our phones before getting out of bed.}
+    \entry
+		{Home Automation}
+		{Doorbell Notifications}
+		{}
+		{the front doorbell doesn’t ring, it sends a push notification to all our phones}
+    \entry
+		{Cartography Hacks}
+		{TransitScope}
+		{https://github.com/michaelrockhold/TransitScope}
+		{see near-real-time locations of all buses in the King County Metro system (sadly defunct due to retirement of a key API)}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+	\cvsect{Languages}
+    \vspace{-6pt}
+    
+    \hspace{26mm} \textbf{English} - native, \textbf{ French} - B1, \textbf{ German} - B1, \textbf{ Spanish} - B1
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
