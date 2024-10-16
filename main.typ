@@ -19,7 +19,7 @@
   linkedin: linkedin,
   // personal-site: personal-site,
   accent-color: "#26428b",
-  font: "New Computer Modern",
+  font: "American Typewriter",
 )
 
 /*
@@ -42,31 +42,34 @@
   company: "Rockhold Consulting",
   dates: dates-helper(start-date: "January 2024", end-date: "Present"),
 )
-- Independent developer of MicroGIS, an iOS/macOS application for GIS professionals.
-- I expect to have version 1 available in the App Store in early November. (See https://github.com/rockhold-consulting/MicroGIS)
+- Independent developer of #link("https://github.com/rockhold-consulting/MicroGIS")[ManyMaps], an iOS/macOS application for GIS professionals and hobbyists.
+
 
 #work(
     title: "Senior Software Engineer",
     location: "Seattle, WA",
-    company: "Sinclair Broadcasting Group (Video Service Engineering team)",
+    company: link("https://sinclairdigital.com")[Sinclair Broadcasting Group] + " (Video Services Engineering team)",
     dates: dates-helper(start-date: "September 2022 ", end-date: "August 2023"),
-)#link("https://sinclairdigital.com")[Website]
+)
 - Designed, developed and deployed middleware to support streaming video services’ customer sign-up and subscription service
 - Designed and developed a system that automates the connection of live station newsfeeds to Facebook Live and other social media streaming services
 - Designed, developed, and put into service a cloud-based search engine for KOMO TV’s archive of daily run-down sheets going back decades 
-- Coded in primarily in Java, JavaScript, and Terraform to build and deploy web APIs using Spring Boot and other frameworks Debugged my APIs across service boundaries
+- Coded in primarily in Java, JavaScript, and Terraform to build and deploy web APIs using Spring Boot and other frameworks
+- Debugged my APIs across service boundaries
 - Collaborated with teams across the company, consulting with developers on other teams to share code, establish interfaces, distribute labor
-- Wrote clear, concise, and testable code Provided valuable unit and integration tests
+- Wrote clear, concise, and testable code
+- Provided valuable unit and integration tests
 - Contributed meaningful feedback in peer code reviews
 - Mentored junior developers
 - Interviewed developer candidates for recruitment to our team or to others.
 
+
 #work(
     title: "Senior Software Engineer",
     location: "Seattle, WA",
-    company: "Sinclair Broadcasting Group (Innovation Lab)",
+    company: link("https://sinclairdigital.com")[Sinclair Broadcasting Group] + " (Innovation Lab)",
     dates: dates-helper(start-date: "September 2019", end-date: "September 2022"),
-)#link("https://sinclairdigital.com")[Website]
+)
 - Proposed new projects
 - Presented plans, progress, and results on a regular basis to Steering Committee, the C-suite audience that commissioned and evaluated our work
 - Authored development and test plans
@@ -78,12 +81,13 @@
 - Used AWS Lambda, DynamoDB, CloudFormation, ECS, API Gateway, S3, Simple Notification Service, Route 53 to build micro services
 - Developed custom middleware to support web and React Native clients for a prototype of a new Sinclair news property
 
+
 #work(
     title: "Senior Software Developer",
     location: "Seattle, WA",
-    company: "Hestan Smart Cooking, Inc.",
+    company: link("https://hestancue.com")[Hestan Smart Cooking, Inc.],
     dates: dates-helper(start-date: "July 2017", end-date: "April 2019"),
-)#link("https://hestancue.com")[Website]
+)
 - Maintained and extended a BlueTooth-based “device pairing” module that maintained a stable connection between the app and the various cooking appliances in the customer’s kitchen
 - Developed a sophisticated UI for capturing the user’s preferred level of sear for different cuts and thicknesses of meat
 - Carried out an extensive refactoring of the cooking workflow to employ the MVVM pattern to the sequence of activities the user undertakes while cooking a recipe.
@@ -91,12 +95,13 @@
 - Developed manual and automated test processes
 - Interviewed and assessed candidates for recruitment
 
+
 #work(
     title: "Software Developer III",
     location: "Seattle, WA",
-    company: "Nordstrom, Inc.",
+    company: link("https://nordstrom.com")[Nordstrom, Inc.],
     dates: dates-helper(start-date: "July 2012", end-date: "May 2017"),
-)#link("https://nordstrom.com")[Website]
+)
 - Co-designed, co-developed the Find Your Store features
 - Developed experimental features dedicated to capturing the customer’s best fit for a range of styles.
 - Designed, coded a map-based Store Search feature to help draw customers into the stores
@@ -109,13 +114,15 @@
 - Helped lead a major refactoring of the app to address some problems with the separation of business logic from presentation
 - Interviewed and assessed candidates for recruitment
 
+
 #work(
     title: "Software Development Engineer",
     location: "Kirkland, WA",
-    company: "Ascentium, Inc.",
+    company: link("https://smithcommerce.com")[Ascentium, Inc.],
     dates: dates-helper(start-date: "July 2011", end-date: "June 2012"),
-)#link("https://smithcommerce.com")[Website]
+)
 - Ascentium (now called 'Smith') is a IT services and consulting company that employed me to develop iOS apps.
+
 
 #work(
     title: "Developer/Owner",
@@ -132,9 +139,9 @@
 #work(
     title: "Research SDE II ",
     location: "Redmond, WA",
-    company: "Microsoft Corporation (.NET Micro Framework platform team)",
+    company: link("https://microsoft.com")[Microsoft Corporation] + " (.NET Micro Framework platform team)",
     dates: dates-helper(start-date: "January 2007", end-date: "January 2009"),
-)#link("https://microsoft.com")[Website]
+)
 - participated in the design and development of a portable implementation of the Microsoft Common Language Runtime for extremely resource-constrained embedded systems, and Windows-hosted tools for developing, debugging, and deploying software to them;
 - implemented support for multibyte characters for string data in the runtime
 - developed a Visual Studio plugin to support targeting .Net Micro Framework devices and emulators from the Visual Studio IDE
@@ -142,13 +149,13 @@
 #work(
     title: "SDE II",
     location: "Seattle, WA",
-    company: "Microsoft Corporation (Windows CE OS & Mobile Engineering Services)",
+    company: link("https://microsoft.com")[Microsoft Corporation] + " (Windows CE OS & Mobile Engineering Services)",
     dates: dates-helper(start-date: "April 1996", end-date: "January 2007"),
-)#link("https://microsoft.com")[Website]
+)
 - Produced a number of internal test tools and libraries
 - Ported "Magellan" NT code coverage tools to CE OS for comprehensive collection of coverage data over time
 - Developed the practices for CE OS automated and manual test labs to use for collecting coverage data in automated and ad-hoc testing
-- *_Technologies used:_*
+- Technologies used:
     - Microsoft C/C++
     - MSBUILD
     - Visual Studio
@@ -158,14 +165,14 @@
 #work(
     title: "Developer",
     location: "Bellevue, WA",
-    company: "Attachmate Corporation",
+    company: link("https://attachmate.com")[Attachmate Corporation],
     dates: dates-helper(start-date: "October 1994", end-date: "April 1996"),
-)#link("https://attachmate.com")[Website]
-- Attachmate Corporation is a 1982-founded software company which focused on secure terminal emulation, legacy integration, and managed file transfer software.
+)
+- Attachmate is a 1982-founded software company which focused on secure terminal emulation, legacy integration, and managed file transfer software.
 - Developed FTP client for _Extra!_, an integrated mainframe connectivity tool for Mac OS (classic).
 - Developed automated build system for another similar product
 - Maintenance programming (C/C++) for several products
-- *_Technologies used:_*
+- Technologies used:
     - Object Pascal
     -  C/C++
     - Mac OS System 7
@@ -174,25 +181,25 @@
 #work(
     title: "QA Lead",
     location: "Bedford, MA",
-    company: "Symantec Corporation (THINK Technologies)",
+    company: link("https://symantec.com")[Symantec Corporation] + " (THINK Technologies)",
     dates: dates-helper(start-date: "1991", end-date: "1994"),
-)#link("https://en.wikipedia.org/wiki/THINK_C")[THINK C]
-- Symantec Corporation was the corporate parent of THINK Technologies, maker of Lightspeed Pascal, THINK C, and other programming tools.
-- Developed and carried out test plans THINK C++, THINK Pascal, and the THINK Class Library (TCL)
-- lead a small team of 1 to 3 direct reports
+)
+- Symantec was the corporate parent of #link("https://en.wikipedia.org/wiki/THINK_C")[THINK Technologies], maker of Lightspeed Pascal, THINK C, and other programming tools.
+- Developed and carried out test plans for THINK C++, THINK Pascal, and the THINK Class Library (TCL)
+- Led a small team of 1 to 3 direct reports
 - Maintained Think Class Library in C++ and Object Pascal.
 - Adapted Apple’s MacApp C++ application framework to use THINK C++ runtime and accept THINK C++ idiosyncrasies
 
 #work(
     title: "MUMPS Developer",
     location: "Cambridge, MA",
-    company: "[InterSystems, Inc.](https://intersystems.com)",
+    company: link("https://intersystems.com")[InterSystems Corporation],
     dates: dates-helper(start-date: "1988", end-date: "1991"),
-)#link("https://sinclairdigital.com")[Website]
+)
 - InterSystems Corporation is a privately held vendor of software systems and technology for high-performance database management, rapid application development, integration, and healthcare information systems.
 - Assisted customers in developing and debugging MUMPS programs, and in administration of MUMPS database systems
 - Performed maintenance and feature work in the InterSystems MUMPS standard library.
-- *_Technologies used:_*
+- Technologies used:
     - C/C++, MUMPS
     - vi
     - UNIX
